@@ -1,0 +1,9 @@
+<!--<bs-grid options="options"></bs-grid>-->
+<ul ng-repeat="item in news">
+    <li>{{item.headline}} at <a ng-href="item.link">{{item.link}}</a> </li>
+</ul>
+<p>Test</p>
+
+<input type="text" ng-model="newItem.headline"/>
+<input type="text" ng-model="newItem.link"/>
+<button class="btn btn-default" ng-click="addNews()">Add news</button>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <!--bower:css-->
+
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
+
+    <link rel="stylesheet" href="../bower_components/toaster/toaster.css">
+
+    <!-- endinject -->
+
+    <!--inject:css-->
+
+    <link rel="stylesheet" href="components/bsgrid/bsgrid.css">
+
+    <!-- endinject -->
+
+    <!-- Favorite Icon -->
+    <link rel="icon" type="image/png" href="ocblogo.jpg">
+
+</head>
+<body flow-prevent-drop>
+
+    <!--<toaster-container></toaster-container>-->
+
+    <div ng-include="'components/nav/nav.html'"></div>
+
+    <div class="container">
+        <div class="ui-view-main" ui-view autoscroll="true"></div>
+    </div>
+
+    <div class="container">
+        <hr>
+        <footer>
+            <div class="pull-right">Copyright &copy; 2014 </div>
+        </footer>
+    </div>
+
+
+    <!-- bower:js -->
+
+    <script src="../bower_components/angular/angular.js"></script>
+
+    <script src="../bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+
+    <script src="../bower_components/lodash/dist/lodash.compat.js"></script>
+
+    <script src="../bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+
+    <script src="../bower_components/firebase/firebase.js"></script>
+
+    <script src="../bower_components/angular-translate/angular-translate.js"></script>
+
+    <script src="../bower_components/angular-translate-loader-static-files/angular-translate-loader-static-files.js"></script>
+
+    <script src="../bower_components/angular-animate/angular-animate.js"></script>
+
+    <script src="../bower_components/angular-local-storage/dist/angular-local-storage.js"></script>
+
+    <script src="../bower_components/angularfire/dist/angularfire.js"></script>
+
+    <script src="../bower_components/toaster/toaster.js"></script>
+
+    <!-- endinject -->
+
+    <!-- inject:js -->
+
+    <script src="app.js"></script>
+
+    <script src="members/manage/members-manage-controller.js"></script>
+
+    <script src="members/list/members-list-controller.js"></script>
+
+    <script src="members/add/members-add-controller.js"></script>
+
+    <script src="tournaments/manage/tournaments-manage-controller.js"></script>
+
+    <script src="year/list/year-list-controller.js"></script>
+
+    <script src="tournaments/add/tournaments-add-controller.js"></script>
+
+    <script src="tournaments/list/tournaments-list-controller.js"></script>
+
+    <script src="components/nav/nav-controller.js"></script>
+
+    <script src="components/bsgrid/bsgrid-directive.js"></script>
+
+    <script src="home/home.js"></script>
+
+    <!-- endinject -->
+
+</body>
+</html>

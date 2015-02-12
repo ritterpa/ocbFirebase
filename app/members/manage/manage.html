@@ -1,0 +1,25 @@
+<h1>Manage Members</h1>
+
+<!--Add Wizard-->
+<div class="btn-group .btn-group .btn-group-justified">
+    <button class="btn btn-default dropdown-toggle" ng-click="addMember()">Add</button>
+    <button type="button" class="btn btn-default dropdown-toggle" ng-disabled="!selectedItems[0]">Actions</button>
+    <ul class="dropdown-menu" role="menu">
+
+        <!-- Edit -->
+        <li role="presentation">
+            <a role="menuitem"
+               tabindex="-1"
+               style="cursor: pointer"
+               ng-show="selectedItems.length === 1 && !outgoing"
+               ng-click="Edit()"
+               translate="ITEMS.LIST.BUTTON_EDIT">
+            </a>
+        </li>
+
+    </ul>
+</div>
+
+
+
+<div ui-view="tournaments"></div>

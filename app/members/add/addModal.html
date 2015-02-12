@@ -1,0 +1,43 @@
+<form class="form-horizontal">
+    <fieldset>
+
+        <!-- Form Name -->
+        <legend>Add Member</legend>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="fName">First Name</label>
+            <div class="col-md-4">
+                <input id="fName" type="text" placeholder="first name" class="form-control input-md" required="" ng-model="newMember.fName">
+                <span class="help-block">Enter a first name!</span>
+            </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="lName">Last Name</label>
+            <div class="col-md-4">
+                <input id="lName" name="" type="text" placeholder="last name" class="form-control input-md" required="" ng-model="newMember.lName">
+                <span class="help-block">Enter a last name!</span>
+            </div>
+        </div>
+
+    </fieldset>
+    <!-- Buttons -->
+    <div class="modal-footer">
+        <div class="col-md-4 col-md-offset-8">
+            <div class="btn-group btn-group-justified">
+                <div class="btn-group">
+
+                    <!-- Ok -->
+                    <button class="btn btn-default" ng-click="save()" ng-disabled="frm.$invalid">Ok</button>
+                </div>
+                <div class="btn-group">
+
+                    <!-- Cancel -->
+                    <button class="btn btn-default" ng-click="cancel()">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

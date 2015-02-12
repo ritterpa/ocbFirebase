@@ -1,0 +1,579 @@
+{
+  "GENERAL": {
+    "BUTTON_ACTION": "Action<span class=\"caret\"></span>",
+    "BUTTON_ADD": "Add",
+    "BUTTON_OK": "Ok",
+    "BUTTON_EDIT": "Edit",
+    "BUTTON_DELETE": "Delete",
+    "BUTTON_CANCEL": "Cancel",
+    "BUTTON_CLEAR": "Clear",
+    "BUTTON_SAVE": "Save",
+    "BUTTON_SAVE_CHANGES": "Save Changes",
+    "BUTTON_DISABLE": "Disable",
+    "BUTTON_ENABLE": "Enable",
+    "BUTTON_VIEW": "View",
+    "BODY": "Body",
+    "ACTIVE": "Active",
+    "ADDRESS": "Address",
+    "ADDRESSES": "Addresses",
+    "RECIPIENT": "Recipient",
+    "CREATOR": "Creator",
+    "TAGS": "Tags",
+    "LANGUAGE": "Language",
+    "PREVIOUS": "Previous",
+    "DECEASED": "Deceased",
+    "NAME": "Name",
+    "NOTE": "Note",
+    "NOTES": "Notes",
+    "FORMS": "Forms",
+    "ITEM": "Item",
+    "ITEMS": "Items",
+    "CASE": "Case",
+    "CASES": "Cases",
+    "SUBJECT": "Subject",
+    "GROUP": "Group",
+    "GROUPS": "Groups",
+    "GENERAL": "General",
+    "GENDER": "Gender",
+    "MESSAGE": "Message",
+    "MESSAGES": "Messages",
+    "DATE": "Date",
+    "TEXT": "Text",
+    "PHOTO": "Photo",
+    "PERSON": "Person",
+    "PEOPLE": "People",
+    "PHONE": "Phone",
+    "JUVENILE": "Juvenile",
+    "MEDIA": "Media",
+    "LOCATION": "Location",
+    "LOCATIONS": "Locations",
+    "USER": "User",
+    "USERS": "Users",
+    "OFFICE": "Office",
+    "OFFICES": "Offices",
+    "ORGANIZATION": "Organization",
+    "ORGANIZATIONS": "Organizations",
+    "NAME": "Name",
+    "EMAIL": "Email",
+    "USERNAME": "Username",
+    "PASSWORD": "Password",
+    "PHONE": "Phone",
+    "BROWSE": "Browse",
+    "DOB": "Date of Birth",
+    "RACE": "Race",
+    "TRANSACTIONS": "Transactions",
+    "SAVED": "Saved!",
+    "SAVE_ERROR": "Save Error!",
+    "LOGIN": "Login",
+    "INVITE": "Invite",
+    "INVITES": "Invites"
+  },
+  "NAV_SEARCH": {
+    "FIND_PERSON": "Find a Person...",
+    "FIND_CASE": "Find a Case...",
+    "FIND_ITEM": "Find an Item...",
+    "FIND_USER": "Find a User..."
+  },
+  "LOGIN": {
+    "SOCIAL_LOGINS": "Social Logins",
+    "SOCIAL_TEXT": "Or you can login using one of the social logins below",
+    "FACEBOOK": "Connect with Facebook",
+    "GOOGLE": "Connect with Google+"
+  },
+  "ADDRESSES": {
+    "TYPE": "Type",
+    "CITY": "City",
+    "ZIP": "Postal Code",
+    "LINE1": "Line 1",
+    "LINE2": "Line 2",
+    "STATE": "State",
+    "COUNTRY": "Country",
+    "NONE": "(No addresses)"
+  },
+  "PEOPLE": {
+    "HEADING_ADD": "Add Person",
+    "HEADING_EDIT": "Edit Person"
+  },
+  "TP-SEARCH": {
+    "ADD": {
+      "HEADING": "Save Search",
+      "NAME": "Name",
+      "NAME_PLACEHOLDER": "name of a search"
+    },
+    "MANAGE": {
+      "HEADING": "Manage"
+    }
+  },
+  "INDEX": {
+    "TITLE": "Tracker",
+    "COPYRIGHT": "Copyright &copy; 2015"
+  },
+  "NAV": {
+    "ADVANCED_SEARCH": "Advanced Search",
+    "TRACKER": "Tracker",
+    "HOME": "Home",
+    "DASHBOARD": "Dashboard",
+    "EXECUTE": "Execute",
+    "TOOLS": "Tools",
+    "SETTINGS": "Settings",
+    "SYSTEM": "System",
+    "OFFICE_SELECT": "Select Office",
+    "HELP": {
+      "TEXT": "Help",
+      "INTRO": "Intro",
+      "TUTORIALS": "Tutorials"
+    },
+    "CASES": "Cases",
+    "ITEMS": "Items",
+    "SCAN": "Scan",
+    "PEOPLE": "People",
+    "LOCATIONS": "Locations",
+    "TASKS": "Tasks",
+    "TASKS_VIEW_ALL": "View All Tasks",
+    "ADMIN": "Admin <span class=\"caret\"></span>",
+    "TRANSACTIONS": "Transactions",
+    "SECURITY": "Security",
+    "ORGANIZATION": "Organization",
+    "ORGANIZATIONS": "Organizations",
+    "OFFICES": "Offices",
+    "FOLLOWUPS": "Follow-Ups",
+    "SIGNUP": "Signup",
+    "LOGIN": "Login",
+    "LOGOUT": "Logout",
+    "MEDIA": "Media",
+    "FORMS": "Forms",
+    "TAGS": "Tags",
+    "SEARCH": "Search",
+    "ERRORS": "Errors",
+    "UNASSIGNED_ITEMS_REPORT": "Unassigned Items",
+    "REPORT_BUILDER": "Report Builder",
+    "ITEM_CATEGORIES": "Item Categories",
+    "ADD": {
+      "TITLE": "Add",
+      "CASE": "Case",
+      "ITEM": "Item",
+      "PERSON": "Person"
+    },
+    "PERMISSIONS": {
+      "NO_LIST": "No 'List' Permissions Found."
+    }
+  },
+  "WIDGETS": {
+    "SAVED_SEARCH": {
+      "OPTIONS": "Options",
+      "VIEW_RESULTS": "View Results",
+      "HEADER": "Saved Search",
+      "SEARCH": "Search",
+      "DISPLAY_RECORDS": "Display Records",
+      "TITLE": "Title"
+    },
+    "ANNOUNCEMENTS": {
+      "HEADING": "Announcements",
+      "MANAGE": "Manage",
+      "BY": "by",
+      "LIST": {
+        "SUBJECT": "Subject",
+        "MESSAGE": "Message",
+        "START_DATE": "Start Date",
+        "END_DATE": "End Date",
+        "OFFICER": "Officer",
+        "BUTTON_ADD": "Add",
+        "BUTTON_DELETE": "Delete"
+      },
+      "ADD": {
+        "HEADING": "Add Announcement",
+        "SUBJECT": "Subject",
+        "SUBJECT_PLACEHOLDER": "subject",
+        "MESSAGE": "Message",
+        "MESSAGE_PLACEHOLDER": "message",
+        "START_DATE": "Start Date",
+        "END_DATE": "End Date",
+        "OFFICER": "Officer"
+      }
+    }
+  },
+  "USERS": {
+    "ADD": {
+      "HEADER": "Add User",
+      "PHOTO": "Select a Photo",
+      "CROPPED": "Cropped Photo"
+    },
+    "EDIT": {
+      "HEADER": "Edit User"
+    },
+    "SETTINGS": {
+      "HEADER": "User Settings"
+    },
+    "REJECT": "Sorry, this account has not been given an invite to login."
+  },
+  "BSGRID": {
+    "PAGE_FIRST": "First",
+    "PAGE_PREVIOUS": "Previous",
+    "PAGE_NEXT": "Next",
+    "PAGE_LAST": "Last",
+    "BUTTON_OPTIONS": "Options <span class=\"caret\"></span>",
+    "BUTTON_EXPORT": "Export <span class=\"caret\"></span>",
+    "EXPORT_FILTERED": "Filtered",
+    "EXPORT_SELECTED": "Selected",
+    "EXPORT_ALL": "All",
+    "LABEL_SEARCH": "Search",
+    "SELECTED_STATS": "Selected <strong class=\"text-primary\">{{num}}</strong>",
+    "DISPLAY_STATS": "Showing <strong>{{begin}}</strong> to <strong>{{end}}</strong> of <strong class=\"text-primary\">{{of}}</strong> items",
+    "FILTERED_STATS": "(<em>Filtered down from <strong>{{of}}</strong></em>)",
+    "PAGESIZE": "Page Size",
+    "COLUMNS": "Columns"
+  },
+  "TPCHARACTER_COUNT": {
+    "CHARACTERS_REMAINING": "Characters Remaining"
+  },
+  "TP_LOCATION": {
+    "NAME": "Name",
+    "ID": "Id",
+    "ACTIVE": "Active",
+    "ITEM_COUNT": "Items"
+  },
+  "TP-ACTIONS-PERMISSIONS": {
+    "BUTTON": "Permissions<span class=\"caret\"></span>",
+    "NO-GROUPS": "No groups have been assinged.",
+    "NO-GROUPS-SELECTED": "No groups have been assinged.",
+    "GROUPS": "Groups",
+    "PERMISSIONS": "Permissions",
+    "DROPDOWN": {
+      "VIEW": "View"
+    },
+    "VIEW": {
+      "HEADER": "View permissions",
+      "CLOSE": "Close"
+    },
+    "EDIT": {
+      "HEADER": "Edit permissions"
+    }
+  },
+  "TP-ACTIONS-MEDIA": {
+    "BUTTON": "Media<span class=\"caret\"></span>",
+    "DROPDOWN": {
+      "ADD": "Add",
+      "EDIT": "Edit"
+    }
+  },
+  "CASES": {
+    "LIST": {
+      "HEADING": "Cases",
+      "BUTTON_ADD": "Add",
+      "BUTTON_ACTION": "Action<span class=\"caret\"></span>",
+      "BUTTON_VIEW": "View",
+      "BUTTON_EDIT": "Edit",
+      "BUTTON_ACTIVATE": "Activate",
+      "BUTTON_DEACTIVATE": "Deactivate",
+      "BUTTON_ADD_REMOVE_MEDIA": "Add/Remove Media"
+    },
+    "BSGRID": {
+      "OFFENSE_DESCRIPTION": "Offense Description",
+      "NAME": "Name",
+      "NEW_NAME": "New Name",
+      "HASH": "Hash",
+      "UPLOADED_BY": "Uploaded By",
+      "DATE": "Date"
+    },
+    "GENERAL": {
+      "CASE_NUMBER_PLACEHOLDER": "case number1",
+      "CASE_OFFICER_PLACEHOLDER": "case officer1",
+      "OFFENSE_LOCATION": "offense location1",
+      "OFFENSE_DESCRIPTION": "Offense Description1",
+      "OFFENSE_DESCRIPTION_PLACEHOLDER": "offense description1"
+    },
+    "ADD": {
+      "MODAL_HEADING": "Add Case1"
+    },
+    "EDIT": {
+      "MODAL_HEADING": "Edit Case1",
+      "TAGS": "Tags1"
+    },
+    "VIEW": {
+      "HEADING": "Case1"
+    },
+    "PEOPLE": {
+      "HEADING": "Manage Case People1",
+      "TYPE": "Person Type1",
+      "TYPE_PLACEHOLDER": "Please select a type1",
+      "NAME": "Person Name1",
+      "NAME_PLACEHOLDER": "Please select a person1",
+      "REMOVE_LABEL": "Remove Selected Person",
+      "REMOVE_PLURAL_LABEL": "Remove Selected People"
+    }
+  },
+  "ITEMS": {
+    "LIST": {
+      "HEADING": "Items",
+      "BUTTON_ADD": "Add",
+      "BUTTON_ACTION": "Action<span class=\"caret\"></span>",
+      "BUTTON_EDIT": "Edit",
+      "BUTTON_ACTIVATE": "Activate",
+      "BUTTON_DEACTIVATE": "Deactivate",
+      "BUTTON_ADD_TO_TASK": "Add To Task",
+      "BUTTON_ADD_TO_CASE": "Add To Case",
+      "BUTTON_CHECK_ITEM_IN": "Check Item{{length == 1 ? '':'s'}} In",
+      "BUTTON_TRANSFER_ITEM": "Transfer Item{{length == 1 ? '':'s'}}",
+      "BUTTON_CHAIN_OF_CUSTODY": "Chain of Custody",
+      "BUTTON_CREATE_LABEL": "Create Label",
+      "BUTTON_CHECK_ITEM_OUT": "Check Item{{length == 1 ? '':'s'}} Out",
+      "BUTTON_MOVE_ITEM": "Move Item{{length == 1 ? '':'s'}}",
+      "BUTTON_DISPOSE_ITEM": "Dispose Item{{length == 1 ? '':'s'}}",
+      "BUTTON_REMOVE_FROM_CASE": "Remove from Case",
+      "BUTTON_MASS_UPDATE": "Mass Update",
+      "BUTTON_ADD_REMOVE_MEDIA": "Add/Remove Media",
+      "BUTTON_VIEW": "View Item",
+      "BUTTON_DUPLICATE": "Duplicate",
+      "BUTTON_TRANSITION": "Transition Item{{length == 1 ? '':'s'}}",
+      "BUTTON_ADD_EXTRA_BARCODE": "Add Extra Barcode"
+    },
+    "ADD": {
+      "MODAL_HEADING"             : "Add Item",
+      "REC_LOC_PLACEHOLDER"       : "recovery location",
+      "DESC_PLACEHOLDER"          : "item description",
+      "DUPLICATE_HEADING"         : "Duplicate Item",
+      "MAKE_PLACEHOLDER"          : "item make",
+      "MODEL_PLACEHOLDER"         : "item model",
+      "SERIAL_NUMBER_PLACEHOLDER" : "item serial number"
+    },
+    "ADD_TO_CASE": {
+      "HEADING": "Add {{ items.length == 1 ? '':items.length }} Item{{ items.length == 1 ? '':'s' }} to Case"
+    },
+    "EDIT": {
+      "HEADING"                   : "Edit Item",
+      "TAGS"                      : "Tags",
+      "MAKE_PLACEHOLDER"          : "item make",
+      "MODEL_PLACEHOLDER"         : "item model",
+      "SERIAL_NUMBER_PLACEHOLDER" : "item serial number"
+    },
+    "LABEL": {
+      "HEADING": "Item Label",
+      "TYPE": "Barcode Type",
+      "WARNING": "This barcode type is invalid for the selected barcode value",
+      "BUTTON_GENERATE": "Generate"
+    },
+    "VIEW": {
+      "HEADING": "Item: ",
+      "ITEM_INFORMATION": "Item Information",
+      "FORMS": "Forms",
+      "CASES": "Cases",
+      "MEDIA": "Media",
+      "NOTES": "Notes",
+      "CHAIN_OF_CUSTODY": "Chain of Custody",
+      "TYPE": "Type",
+      "DATE": "Date",
+      "ISSUED_FROM": "Issued From",
+      "ISSUED_TO": "Issued To",
+      "CHECKED_IN_LOCATION": "Check in Location",
+      "CHECKED_OUT_REASON": "Check out Reason"
+    },
+    "GENERAL": {
+      "EXTRA_BARCODE": "Extra Barcode"
+    },
+    "CHECK_IN": {
+      "HEADING": "Check In Items",
+      "RETURNED_BY": "Returned By:",
+      "CHECKED_IN_BY": "Checked In By:",
+      "SIGNATURE": "Signature:"
+    },
+    "CHECK_OUT": {
+      "HEADING": "Check Out Items",
+      "TAKEN_BY": "Taken By:",
+      "CHECKED_OUT_BY": "Checked out by:",
+      "REASON": "Reason:",
+      "EXPECTED_RETURN_DATE": "Expected Return Date:"
+    },
+    "DISPOSAL": {
+      "HEADING": "Item Disposal",
+      "DISPOSED_BY": "Disposed By:",
+      "METHOD": "Method:"
+    },
+    "MASS_UPDATE": {
+      "HEADING": "Mass Update Items"
+    },
+    "TRANSITION": {
+      "HEADING": "Transition Items",
+      "TRANSITION_TO": "Transition To",
+      "TRANSITION_TO_PLACEHOLDER": "select an organization"
+    },
+    "ADD_BARCODE": {
+      "HEADING": "Add Barcode",
+      "BARCODE": "Barcode",
+      "BARCODE_PLACEHOLDER": "barcode"
+    },
+    "MOVE": {
+      "HEADER": "Move Item(s)",
+      "MOVED_BY": "Moved By",
+      "NOTES": "Notes",
+      "NOTES_PLACEHOLDER": "put some notes here",
+      "SIGNATURE": "Signature",
+      "SIGNATURE_ERROR": "Please sign in the above space."
+    }
+  },
+  "LOCATIONS": {
+    "NAME": "Locations",
+    "ADD": "Add Locations",
+    "NOTE": "(You can add several at a time, 1 per line.  There parent location will be the selected location on the right.  If none is selected they will be added at the root level.)",
+    "CURRENT": "Current Locations",
+    "EDIT": "Edit Location",
+    "SUCCESS": "Added Location : ",
+    "ERROR": "Name was in use : ",
+    "GENERAL": {
+      "NAME": "Name",
+      "ACTIVE": "Active"
+    }
+  },
+  "ORGS": {
+    "SETTINGS": {
+      "HEADING": "Org Settings",
+      "COLUMN_TAG": "Column Tag",
+      "COLUMN_VALUE": "Column Value",
+      "EMPTY_VALUE": "value cannot be blank",
+      "SAVE_STRING": "Save",
+      "COLUMN_SAVE": "Info",
+      "COLUMN_SEARCH": "Search",
+      "INCOMING": {
+        "HEADING": "Incoming Items"
+      },
+      "OUTGOING" : {
+        "HEADING" : "Outgoing Items"
+      },
+      "FORMS" : {
+        "HEADING": "Required Forms",
+        "LISTBOX": {
+          "ADD_ALL_BUTTON": "Add All1",
+          "ADD_ONE_BUTTON": "Add Selected1",
+          "REMOVE_ALL_BUTTON": "Remove All1",
+          "REMOVE_ONE_BUTTON": "Remove Selected1",
+          "SHOW_ALL_BUTTON": "Show All1",
+          "FILTER_PLACEHOLDER": "search list1",
+          "ALL_ITEMS_LABEL": "All Forms1",
+          "SELECTED_ITEMS_LABEL": "Required Forms1"
+        }
+      },
+      "ITEM_CATEGORIES": {
+        "HEADING": "Item Categories"
+      }
+    },
+    "ADD": {
+      "HEADER": "Add Organization",
+      "NAME": "Name",
+      "NAME_PLACEHOLDER": "organization name",
+      "CALS": "Cals",
+      "DEFAULT_LOCATION": "Default Location",
+      "DEFAULT_LOCATION_PLACEHOLDER": "default location name",
+      "LOGO": "Logo"
+    }
+
+  },
+  "TAGS": {
+    "LIST": {
+      "HEADING": "Tags",
+      "BUTTON_ADD": "Add",
+      "BUTTON_ACTION": "Action<span class=\"caret\"></span>",
+      "BUTTON_EDIT": "Edit",
+      "BUTTON_ACTIVATE": "Activate",
+      "BUTTON_DEACTIVATE": "Deactivate",
+      "ACTIVE": "Active"
+    },
+    "ADD": {
+      "MODAL_HEADING": "Add Tag"
+    },
+    "EDIT": {
+      "MODAL_HEADING": "Edit Tag"
+    },
+    "LABEL": {
+      "NAME": "Name",
+      "NAME_PLACEHOLDER": "Tag name"
+    }
+  },
+  "SEARCH": {
+    "HEADING": "Search",
+    "BUTTON_SEARCH": "Search",
+    "OFFENSE_DATE_FROM": "Offense Date From",
+    "OFFENSE_DATE_TO": "To"
+  },
+  "ERRORS": {
+    "BUTTON_VIEW": "View",
+    "GENERAL": {
+      "TIME": "Time",
+      "ERROR_URL": "Error Url",
+      "ERROR_MESSAGE": "Error Message",
+      "STACK_TRACE": "Stack Trace",
+      "CAUSE": "Cause",
+      "BROWSER": "Browser",
+      "USER": "User"
+    },
+    "LIST": {
+      "HEADING": "Errors"
+    },
+    "VIEW": {
+      "HEADING": "Error"
+    }
+  },
+  "FORM-BUTTONS" : {
+    "CLOSE": "Close"
+  },
+  "TASKS": {
+    "HEADER": "Tasks",
+    "CREATOR": "Creator",
+    "ASSIGNEE": "Assignee",
+    "GENERAL": {
+      "ITEMS": "Items"
+    }
+  },
+  "REPORTS": {
+    "LIST": {
+      "HEADING": "Open or Create a report"
+    }
+  },
+  "NOTES": {
+    "NONE": "(No Notes)",
+    "DATE": "Date",
+    "TEXT": "Text",
+    "USER_NAME": "User",
+    "ADD": "Add"
+  },
+  "ITEM_CATEGORIES": {
+    "LIST": {
+      "HEADING": "Item Categories",
+      "BUTTON_ADD": "Add",
+      "BUTTON_EDIT": "Edit",
+      "NAME": "Name"
+    },
+    "ADD": {
+      "MODAL_HEADING": "Add Item Category",
+      "NAME": "Name",
+      "NAME_PLACEHOLDER": "Item Category"
+    },
+    "EDIT": {
+      "MODAL_HEADING": "Add Item Category"
+    }
+  },
+  "OFFICES": {
+    "ADD": {
+      "HEADER": "Add Office",
+      "NAME": "Name",
+      "NAME_PLACEHOLDER": "organization name",
+      "ADDRESS_1": "Address 1",
+      "ADDRESS_1_PLACEHOLDER": "address 1",
+      "ADDRESS_2": "Address 2",
+      "ADDRESS_2_PLACEHOLDER": "address 2",
+      "CITY": "City",
+      "CITY_PLACEHOLDER": "city",
+      "STATE": "State",
+      "STATE_PLACEHOLDER": "state",
+      "ZIP": "Zip",
+      "ZIP_PLACEHOLDER": "zip code",
+      "PHONE": "Phone",
+      "PHONE_PLACEHOLDER": "phone number",
+      "DEFAULT_LOCATION": "Default Location",
+      "DEFAULT_LOCATION_PLACEHOLDER": "default location name"
+    }
+  },
+  "CALENDAR": {
+    "BUTTON_TODAY": "Today",
+    "BUTTON_CLEAR": "Clear",
+    "BUTTON_CLOSE": "Close"
+  }
+}
