@@ -8,7 +8,8 @@ angular.module('app', ['ui.router',
                         'firebase',
                         'pascalprecht.translate',
                         'LocalStorageModule',
-                        'toaster'])
+                        'toaster',
+                        'mgcrea.ngStrap'])
 
 
 

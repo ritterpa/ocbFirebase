@@ -1,0 +1,100 @@
+<form class="form-horizontal">
+    <fieldset>
+        <!-- Lake-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="lake">Lake</label>
+
+            <div class="col-md-4">
+                <input id="lake" type="text" placeholder="lake name" class="form-control input-md"
+                       required=""
+                       ng-model="newItem.lake">
+
+            </div>
+        </div>
+
+        <!-- Ramp-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="ramp">Ramp</label>
+
+            <div class="col-md-4">
+                <input id="ramp" name="" type="text" placeholder="ramp name" class="form-control input-md"
+                       ng-model="newItem.ramp">
+            </div>
+        </div>
+
+        <!-- Directions-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="directions">Directions</label>
+
+            <div class="col-md-4">
+                <input id="directions" name="" type="text" placeholder="link to map"
+                       class="form-control input-md"
+                       required ng-model="newItem.directions">
+                <span class="help-block">Enter a map url!</span>
+            </div>
+        </div>
+
+        <!-- Event Date -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="directions">Date</label>
+
+            <div class="col-md-4">
+                <div class="input-group">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button"
+                                ng-click="OpenCalendar($event, 'dtDate')">
+                            <i class="glyphicon glyphicon-calendar"></i>
+                        </button>
+                    </span>
+                    <input name="dtDate"
+                           type="text"
+                           class="form-control"
+                           datepicker-popup="{{dateFormat}}"
+                           ng-model="newItem.date"
+                           is-open="datePickers.dtDate"
+                           datepicker-options="dateOptions"
+                           ng-required="true"
+                           required="required"
+                           close-text="Close"/>
+                </div>
+            </div>
+        </div>
+
+        <!-- Start Time-->
+        <div class="form-group" ng-class="{'has-error': timepickerForm.time2.$invalid}">
+            <label class="col-md-4 control-label"><i class="fa fa-clock-o"></i> Start Time2 </label>
+            <div class="col-md-4">
+                <input type="text" class="form-control input-group" size="2" ng-model="newItem.start" data-length="1" data-autoclose="1" name="time2" data-minute-step="30" bs-timepicker>
+            </div>
+
+        </div>
+
+        <!-- End Time-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="end">End Time</label>
+            <div class="col-md-4">
+                <input type="text" class="form-control input-group" size="2" ng-model="newItem.end" data-length="1" data-autoclose="1" name="time2" data-minute-step="30" bs-timepicker>
+            </div>
+        </div>
+
+
+    </fieldset>
+    <!-- Buttons -->
+    <div class="modal-footer">
+        <div class="col-md-4 col-md-offset-8">
+            <div class="btn-group btn-group-justified">
+                <div class="btn-group">
+
+                    <!-- Ok -->
+                    <button class="btn btn-default" ng-click="save()" ng-disabled="frm.$invalid">Ok</button>
+                </div>
+                <div class="btn-group">
+
+                    <!-- Cancel -->
+                    <button class="btn btn-default" ng-click="cancel()">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+<pre>{{newItem | json}}</pre>
